@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="587.0" prefWidth="884.0" styleClass="StackPane" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="48.0" prefWidth="884.0" text="Account Setting">
+               <font>
+                  <Font name="Century Gothic Bold" size="27.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="20.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+            <HBox prefHeight="541.0" prefWidth="884.0">
+               <children>
+                  <VBox prefHeight="513.0" prefWidth="485.0" style="-fx-border-color: #a3ce82; -fx-border-width: 0 1px 0 0;">
+                     <HBox.margin>
+                        <Insets bottom="20.0" top="10.0" />
+                     </HBox.margin>
+                     <children>
+                        <JFXTextField focusColor="#a3ce82" labelFloat="true" prefHeight="25.0" prefWidth="258.0" promptText="First Name" unFocusColor="#92a794">
+                           <font>
+                              <Font name="Century Gothic" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="40.0" right="40.0" top="10.0" />
+                           </VBox.margin>
+                        </JFXTextField>
+                        <JFXTextField focusColor="#a3ce82" labelFloat="true" prefHeight="25.0" prefWidth="258.0" promptText="Last Name" unFocusColor="#92a794">
+                           <font>
+                              <Font name="Century Gothic" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="40.0" right="40.0" top="10.0" />
+                           </VBox.margin>
+                        </JFXTextField>
+                        <JFXTextField focusColor="#a3ce82" labelFloat="true" prefHeight="25.0" prefWidth="258.0" promptText="Middle Name" unFocusColor="#92a794">
+                           <font>
+                              <Font name="Century Gothic" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="40.0" right="40.0" top="10.0" />
+                           </VBox.margin>
+                        </JFXTextField>
+                        <JFXTextField focusColor="#a3ce82" labelFloat="true" prefHeight="25.0" prefWidth="258.0" promptText="Email Address" unFocusColor="#92a794">
+                           <font>
+                              <Font name="Century Gothic" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="40.0" right="40.0" top="10.0" />
+                           </VBox.margin>
+                        </JFXTextField>
+                        <JFXTextField focusColor="#a3ce82" labelFloat="true" prefHeight="25.0" prefWidth="258.0" promptText="Address" unFocusColor="#92a794">
+                           <font>
+                              <Font name="Century Gothic" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="40.0" right="40.0" top="10.0" />
+                           </VBox.margin>
+                        </JFXTextField>
+                        <JFXTextField focusColor="#a3ce82" labelFloat="true" prefHeight="25.0" prefWidth="258.0" promptText="Contact Number" unFocusColor="#92a794">
+                           <font>
+                              <Font name="Century Gothic" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="40.0" right="40.0" top="10.0" />
+                           </VBox.margin>
+                        </JFXTextField>
+                        <HBox prefHeight="32.0" prefWidth="559.0">
+                           <children>
+                              <Label prefHeight="30.0" prefWidth="98.0" text="Birthdate">
+                                 <font>
+                                    <Font name="Century Gothic" size="14.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="20.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <JFXComboBox focusColor="#a3ce82" labelFloat="true" prefHeight="40.0" prefWidth="105.0" promptText="Month" unFocusColor="#92a794">
+                                 <HBox.margin>
+                                    <Insets left="20.0" />
+                                 </HBox.margin>
+                              </JFXComboBox>
+                              <JFXComboBox focusColor="#a3ce82" labelFloat="true" layoutX="74.0" layoutY="10.0" prefHeight="55.0" prefWidth="62.0" promptText="Day" unFocusColor="#92a794">
+                                 <HBox.margin>
+                                    <Insets left="20.0" />
+                                 </HBox.margin>
+                              </JFXComboBox>
+                              <JFXComboBox focusColor="#a3ce82" labelFloat="true" layoutX="74.0" layoutY="10.0" prefHeight="50.0" prefWidth="120.0" promptText="Year" unFocusColor="#92a794">
+                                 <HBox.margin>
+                                    <Insets left="20.0" />
+                                 </HBox.margin>
+                              </JFXComboBox>
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="40.0" right="40.0" top="10.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox prefHeight="32.0" prefWidth="559.0">
+                           <children>
+                              <Label prefHeight="30.0" prefWidth="118.0" text="Marital Status">
+                                 <font>
+                                    <Font name="Century Gothic" size="14.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="20.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <JFXRadioButton prefHeight="32.0" prefWidth="64.0" text="Married">
+                                 <font>
+                                    <Font name="Century Gothic" size="9.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="20.0" />
+                                 </HBox.margin>
+                              </JFXRadioButton>
+                              <JFXRadioButton layoutX="61.0" layoutY="10.0" prefHeight="32.0" prefWidth="87.0" text="Unmarried">
+                                 <font>
+                                    <Font name="Century Gothic" size="9.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="20.0" />
+                                 </HBox.margin>
+                              </JFXRadioButton>
+                              <JFXRadioButton layoutX="165.0" layoutY="10.0" prefHeight="32.0" prefWidth="87.0" text="Others">
+                                 <font>
+                                    <Font name="Century Gothic" size="9.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="20.0" />
+                                 </HBox.margin>
+                              </JFXRadioButton>
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="40.0" right="40.0" top="10.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <JFXTextField focusColor="#a3ce82" labelFloat="true" prefHeight="25.0" prefWidth="258.0" promptText="Occupation" unFocusColor="#92a794">
+                           <font>
+                              <Font name="Century Gothic" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="40.0" right="40.0" top="10.0" />
+                           </VBox.margin>
+                        </JFXTextField>
+                        <JFXTextField focusColor="#a3ce82" labelFloat="true" prefHeight="25.0" prefWidth="258.0" promptText="Income" unFocusColor="#92a794">
+                           <font>
+                              <Font name="Century Gothic" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="40.0" right="40.0" top="10.0" />
+                           </VBox.margin>
+                        </JFXTextField>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="10.0" prefHeight="513.0" prefWidth="485.0" style="-fx-border-color: #a3ce82; -fx-border-width: 0 0 0 1px;">
+                     <HBox.margin>
+                        <Insets bottom="20.0" top="10.0" />
+                     </HBox.margin>
+                     <children>
+                        <JFXPasswordField focusColor="#a3ce82" labelFloat="true" promptText="Enter your PIN" unFocusColor="#92a794">
+                           <font>
+                              <Font name="Century Gothic" size="18.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="30.0" right="30.0" top="80.0" />
+                           </VBox.margin>
+                        </JFXPasswordField>
+                        <JFXPasswordField focusColor="#a3ce82" labelFloat="true" promptText="Enter your new PIN" unFocusColor="#92a794">
+                           <font>
+                              <Font name="Century Gothic" size="18.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="30.0" right="30.0" top="10.0" />
+                           </VBox.margin>
+                        </JFXPasswordField>
+                        <JFXPasswordField focusColor="#a3ce82" labelFloat="true" layoutX="11.0" layoutY="10.0" promptText="Re-Enter" unFocusColor="#92a794">
+                           <font>
+                              <Font name="Century Gothic" size="18.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="30.0" right="30.0" top="10.0" />
+                           </VBox.margin>
+                        </JFXPasswordField>
+                        <JFXButton alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="51.0" prefWidth="431.0" ripplerFill="#3d5b5b" styleClass="button1" text="Submit" textAlignment="CENTER" textFill="#576675">
+                           <font>
+                              <Font name="Century Gothic Bold" size="19.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="30.0" right="30.0" top="90.0" />
+                           </VBox.margin>
+                        </JFXButton>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</StackPane>

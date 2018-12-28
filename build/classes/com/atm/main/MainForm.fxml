@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="587.0" prefWidth="884.0" styleClass="StackPane" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox>
+         <children>
+            <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="587.0" prefWidth="468.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="29.0" prefWidth="300.0" text="ATM">
+                     <font>
+                        <Font name="Century Gothic Bold" size="64.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="50.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="13.0" prefWidth="300.0" text="Simulator">
+                     <font>
+                        <Font name="Century Gothic Bold" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="17.0" prefWidth="368.0" text="Welcome Ralph Royeen ">
+                     <VBox.margin>
+                        <Insets left="15.0" right="15.0" top="20.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="17.0" prefWidth="337.0" text="Balance: 10,000">
+                     <VBox.margin>
+                        <Insets left="15.0" right="15.0" top="20.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Century Gothic Italic" size="15.0" />
+                     </font>
+                  </Label>
+                  <JFXButton alignment="TOP_LEFT" prefHeight="43.0" prefWidth="135.0" text="Sign Out" textFill="#92a794">
+                     <graphic>
+                        <ImageView fitHeight="39.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../utils/img/Sign%20Out_96px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <VBox.margin>
+                        <Insets bottom="15.0" left="15.0" right="150.0" top="269.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Century Gothic" size="15.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </VBox>
+            <TilePane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="587.0" prefWidth="752.0">
+               <children>
+                  <JFXButton alignment="CENTER" contentDisplay="TOP" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="260.0" prefWidth="260.0" styleClass="button1" text="Deposit" textAlignment="CENTER" textFill="#576675" TilePane.alignment="CENTER">
+                     <TilePane.margin>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </TilePane.margin>
+                     <font>
+                        <Font name="Century Gothic Bold" size="27.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="75.0" fitWidth="92.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../utils/img/Deposit_104px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton contentDisplay="TOP" layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="260.0" prefWidth="260.0" styleClass="button2" text="Withdraw" textFill="#576675">
+                     <TilePane.margin>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </TilePane.margin>
+                     <font>
+                        <Font name="Century Gothic Bold" size="27.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="75.0" fitWidth="92.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../utils/img/Withdrawal_96px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton contentDisplay="TOP" layoutX="171.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="260.0" prefWidth="260.0" styleClass="button2" text="View Logs" textFill="#576675">
+                     <TilePane.margin>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </TilePane.margin>
+                     <font>
+                        <Font name="Century Gothic Bold" size="27.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="75.0" fitWidth="92.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../utils/img/View_96px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton alignment="CENTER" contentDisplay="TOP" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="260.0" prefWidth="260.0" styleClass="button1" text="Account" textAlignment="CENTER" textFill="#576675">
+                     <font>
+                        <Font name="Century Gothic Bold" size="27.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="75.0" fitWidth="92.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../utils/img/Account_96px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <TilePane.margin>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </TilePane.margin>
+                  </JFXButton>
+               </children>
+            </TilePane>
+         </children>
+      </HBox>
+   </children>
+</StackPane>

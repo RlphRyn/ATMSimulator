@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="474.0" prefWidth="744.0" styleClass="StackPane" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <TableView maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="474.0" prefWidth="567.0" style="-fx-background-color: #576675; -fx-border-color: #a3ce82;">
+              <columns>
+                <TableColumn prefWidth="268.0" style="-fx-background-color: #576675; -fx-border-color: #a3ce82; -fx-border-width: 0px 1px 1px 0px;" text="C1" />
+                <TableColumn prefWidth="275.0" style="-fx-background-color: #576675; -fx-border-color: #a3ce82; -fx-border-width: 0px 1px 1px 0px;" text="C2" />
+              </columns>
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" top="10.0" />
+               </HBox.margin>
+            </TableView>
+            <VBox prefHeight="474.0" prefWidth="201.0">
+               <children>
+                  <JFXButton alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="51.0" prefWidth="279.0" ripplerFill="#3d5b5b" styleClass="button1" text="View Logs" textAlignment="CENTER" textFill="#576675">
+                     <font>
+                        <Font name="Century Gothic Bold" size="19.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="150.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="51.0" prefWidth="279.0" ripplerFill="#3d5b5b" styleClass="button1" text="Edit" textAlignment="CENTER" textFill="#576675">
+                     <font>
+                        <Font name="Century Gothic Bold" size="19.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="51.0" prefWidth="194.0" ripplerFill="#3d5b5b" style="-fx-background-color: #da6565; -fx-background-radius: 5px;" text="Delete" textAlignment="CENTER" textFill="#576675">
+                     <font>
+                        <Font name="Century Gothic Bold" size="19.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" />
+                     </VBox.margin>
+                  </JFXButton>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</StackPane>

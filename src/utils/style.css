@@ -1,0 +1,36 @@
+*{
+    -fx-font: "Century Gothic";
+}
+root{
+    bg1:#576675;
+    lb-ft:#a3ce82;
+    fl-ft:#e3e8e3;
+}
+.txtFill{
+    -fx-text-fill: #ccffff;
+}
+.StackPane{
+    -fx-background-color: #576675;
+}
+Label{
+    -fx-text-fill: #a3ce82;
+}
+.button1{
+    -fx-background-color: #a3ce82;
+    /*)-fx-effect: dropshadow(three-pass-box, derive(black, 30%), 5, 0, 1, 1); */
+    -fx-background-radius: 5px;
+}
+.tab{
+    -fx-pref-width:182;
+}
+.tab-header-background{
+   -fx-background-color: #576675;
+}
+.button2{
+    -fx-background-color: #92a794;
+    -fx-background-radius: 5px;
+    
+}
+.TableColumn{
+    -fx-text-fill: #576675;
+}

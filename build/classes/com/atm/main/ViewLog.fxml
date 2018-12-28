@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="587.0" prefWidth="884.0" styleClass="StackPane" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.atm.main.ViewLogController">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <center>
+            <TableView prefHeight="587.0" prefWidth="840.0" style="-fx-background-color: #576675; -fx-border-color: #a3ce82;" BorderPane.alignment="CENTER">
+              <columns>
+                <TableColumn editable="false" prefWidth="94.0" sortable="false" style="-fx-background-color: #576675; -fx-border-color: #a3ce82; -fx-border-width: 0px 1px 1px 0px;" text="Transaction ID" />
+                <TableColumn editable="false" minWidth="0.0" prefWidth="180.0" sortable="false" style="-fx-background-color: #576675; -fx-border-color: #a3ce82; -fx-border-width: 0px 1px 1px 0px;" text="Date" />
+                  <TableColumn editable="false" prefWidth="154.0" sortable="false" style="-fx-background-color: #576675; -fx-border-color: #a3ce82; -fx-border-width: 0px 1px 1px 0px;" text="Time" />
+                  <TableColumn editable="false" prefWidth="187.0" sortable="false" style="-fx-background-color: #576675; -fx-border-color: #a3ce82; -fx-border-width: 0px 1px 1px 0px;" text="Event" />
+                  <TableColumn editable="false" prefWidth="207.0" sortable="false" style="-fx-background-color: #576675; -fx-border-color: #a3ce82; -fx-border-width: 0px 1px 1px 0px;" text="Amount" />
+              </columns>
+               <BorderPane.margin>
+                  <Insets bottom="30.0" left="30.0" right="30.0" />
+               </BorderPane.margin>
+            </TableView>
+         </center>
+         <top>
+            <VBox prefHeight="89.0" prefWidth="884.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label alignment="CENTER" prefHeight="17.0" prefWidth="1061.0" text="Transaction Logs">
+                     <font>
+                        <Font name="Century Gothic Bold" size="31.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label prefHeight="30.0" prefWidth="120.0" text="Balance: 10000">
+                     <font>
+                        <Font name="Century Gothic Italic" size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="30.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+         </top>
+      </BorderPane>
+   </children>
+</StackPane>

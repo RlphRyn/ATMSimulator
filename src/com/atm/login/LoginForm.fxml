@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="346.0" prefWidth="411.0" stylesheets="@../../../utils/style.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.atm.login.LoginFormController">
+   <children>
+      <VBox prefHeight="391.0" prefWidth="414.0" styleClass="StackPane">
+         <children>
+            <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="472.0" text="WELCOME" textFill="#a3ce82">
+               <font>
+                  <Font name="Century Gothic Bold" size="32.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="20.0" right="20.0" top="30.0" />
+               </VBox.margin>
+            </Label>
+            <JFXTextField focusColor="#a3ce82" labelFloat="true" prefHeight="37.0" prefWidth="432.0" promptText="Card Number" unFocusColor="#92a794">
+               <VBox.margin>
+                  <Insets left="50.0" right="50.0" top="30.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </JFXTextField>
+            <JFXPasswordField focusColor="#a3ce82" labelFloat="true" promptText="Pin" unFocusColor="#92a794">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="50.0" right="50.0" top="30.0" />
+               </VBox.margin>
+            </JFXPasswordField>
+            <JFXButton alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="51.0" prefWidth="431.0" ripplerFill="#3d5b5b" styleClass="button1" text="Sign In" textAlignment="CENTER" textFill="#576675">
+               <VBox.margin>
+                  <Insets left="100.0" right="100.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Century Gothic Bold" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="25.0" prefWidth="515.0" text="Sign Up" textAlignment="CENTER" textFill="#92a794" underline="true">
+               <VBox.margin>
+                  <Insets left="120.0" right="120.0" top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton ellipsisString="" prefHeight="35.0" prefWidth="33.0" ripplerFill="#92a794">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+               <graphic>
+                  <ImageView fitHeight="27.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../utils/img/Admin%20Settings%20Male_25px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </VBox>
+   </children>
+</StackPane>
